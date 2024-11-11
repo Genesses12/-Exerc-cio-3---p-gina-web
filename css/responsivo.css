@@ -1,0 +1,31 @@
+/*dispositivos menores*/
+@media (max-width:600px) {
+    body {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .logo{
+     display: none;  
+    }
+
+}
+
+/*uso dois monitores estavam dando diferença :D */
+@media(min-width:1024px) {
+    img {
+        width: 100%;
+        margin: 15px;
+    }
+}
